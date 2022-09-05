@@ -88,13 +88,19 @@ body {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
 }
-/* Кнопки */
+/* Кнопка */
 .button {
     color: var(--primary-white-color);
     background-color: var(--accent-link-color);
     cursor: pointer;
     border: none;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 
 /* Section */
@@ -116,6 +122,9 @@ body {
     text-align: center;
 }
 
+.staff {
+    background-color: var(--primary-bg-color)
+}
 .staff .title {
     color: var(--secondary-text-color);
     font-size: 16px;
@@ -146,16 +155,21 @@ body {
 .address .link:focus {
     color: var(--accent-link-color)
 }
-/* Portfolio */
 
+.address .contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Portfolio */
+/* Кнопки фильтра */
 .filter-btn {
     color: var(--secondary-text-color);
     background-color: var(--primary-bg-color);
     cursor: pointer;
     border: none;
     font-weight: 500;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.6;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
